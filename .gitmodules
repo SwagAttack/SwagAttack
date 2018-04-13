@@ -1,0 +1,3 @@
+[submodule "SwagAttack_GUI_Webserver_Mirror"]
+	path = SwagAttack_GUI_Webserver_Mirror
+	url = https://github.com/Gobbenobber/SwagAttack_GUI_Webserver_Mirror

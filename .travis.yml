@@ -1,6 +1,3 @@
-job: 
-  include: 
-  	- stage: "test"
   	language: csharp
   	solution: SwagAttack_Gameserver_Mirror/GameServer/GameServer.sln
   	mono: latest

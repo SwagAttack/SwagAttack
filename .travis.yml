@@ -7,5 +7,5 @@ script:
 install:
 - nuget restore SwagAttack_Gameserver_Mirror/GameServer/GameServer.sln
 - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
- script:
- - dotnet build SwagAttack_Gameserver_Mirror/GameServer/GameServer.sln
+script:
+- dotnet build SwagAttack_Gameserver_Mirror/GameServer/GameServer.sln

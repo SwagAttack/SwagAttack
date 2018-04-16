@@ -1,0 +1,4 @@
+jobs:
+  include:
+    stage: gs_build
+    script: ./.gameserver_build.yml

@@ -10,4 +10,4 @@ install:
 script:
 - dotnet build SwagAttack_Gameserver_Mirror/GameServer/GameServer.sln
 - dotnet build SwagAttack_GUI_Webserver_Mirror/GUI/GUI.sln
-- mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./**/**/bin/Release/**.Tests.dll
+- mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./**/**/*.Test.*/bin/Release/*tests.dll

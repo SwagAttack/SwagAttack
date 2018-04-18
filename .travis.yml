@@ -9,3 +9,4 @@ install:
 - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
 - dotnet build SwagAttack_Gameserver_Mirror/GameServer/GameServer.sln
+- dotnet build SwagAttack_GUI_Webserver_Mirror/GUI/GUI.sln

@@ -9,4 +9,6 @@ install:
 script:
 - dotnet build SwagAttack_Gameserver_Mirror/GameServer/GameServer.sln
 - dotnet build SwagAttack_GUI_Webserver_Mirror/GUI/GUI.sln
-- mono ./packages/NUnit.runners.*/tools/xunit.console.clr4.exe ./**/**/*.Test.*/bin/Debug/netcoreapp2.0/*tests.dll
+- dotnet test ./**/**/*.Test.*/bin/Debug/netcoreapp2.0/*tests.dll
+
+#- mono ./packages/NUnit.runners.*/tools/xunit.console.clr4.exe ./**/**/*.Test.*/bin/Debug/netcoreapp2.0/*tests.dll -- may be needed?

@@ -9,5 +9,4 @@ before_build:
 build_script:
   - dotnet build SwagAttack_Gameserver_Mirror\GameServer\GameServer.sln
   - dotnet build SwagAttack_GUI_Webserver_Mirror\GUI\GUI.sln
-after_test:
-  - cmd: after_test.cmd
+  - dotnet test C:\projects\swagattack\SwagAttack_Gameserver_Mirror\GameServer\ITTestCore\IT_Core.csproj --no-build --no-restore --logger:Appveyor

@@ -1,4 +1,4 @@
-version: 0.0.{build}
+version: 0.1.{build}
 environment:
   COVERALLS_REPO_TOKEN:
     secure: 3ao0xfd0XGfGS2+NFuBYgOZiTkM3lZbZ5yLwk9OaEkqC3tkkBGREsgmBJLSwwBDc
